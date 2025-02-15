@@ -1,0 +1,224 @@
+#body1 {
+	background: #D3D3D3;
+}
+
+
+#content {
+	width: 1058px;
+	height: 206px;
+	margin: 96px 0px 0px 160px;
+	display: flex;
+	justify-content: space-between;
+	font-family: Poppins;
+}
+
+#leftContent,
+#rightContent{
+	position: relative;
+}
+
+#logo {
+	width:160px;
+	font-size: 35px;
+	color: #FFFFFF;
+	position: absolute; 
+    left: 10px; 
+    top: 0px;
+	
+}
+
+#Label2 {
+	color: #F4F6FC;
+	width: 400px;
+	position: absolute; 
+    left: 10px; 
+    top: 45px;
+	font-size: 18px;
+	opacity: 0.8;
+	line-height: 26px;
+	font-weight: 400;
+}
+
+
+#LetsTalk {
+	width: 333px;
+	font-size: 48px;
+	color: #FFFFFF;
+	line-height: 64px;
+	font-weight: 600;
+}
+
+#Label1 {
+	width: 400px;
+	height: 84px;
+	font-size: 20px;
+	color: #FFFFFF;
+	opacity: 0.8;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 28px;
+}
+
+
+#SocialMediaIcon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#facebook,
+#linkedIn,
+#twitter{
+	height:16px;
+}
+
+#instagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 16px; /* Ширина контейнера */
+    height: 16px; /* Висота контейнера */
+}
+
+#Instagram1, #Instagram2, #Instagram3 {
+    max-height: 16px;
+    max-width: 16px;
+    display: block;
+    object-fit: contain; /* Забезпечує правильне масштабування зображень */
+}
+
+#Instagram1 {
+    position: absolute;
+    top: 15%; /* Відступ від верхнього краю */
+    right: 15%; /* Відступ від правого краю */
+}
+
+#Instagram2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Центрує елемент */
+}
+
+#Instagram3 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+
+
+
+
+
+#contactInfo {
+    background-color: #FCD980;
+    height: 95px;
+    width: 517px;
+    margin: 0px 0px 0px 160px;
+    display: flex;
+    justify-content: flex-start;
+    position: relative; 
+	font-family: Poppins;
+}
+
+#leftContentInfo,
+#rightContentInfo {
+	padding: 30px;
+}
+
+#email,
+#callUs{
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 32px;
+	color:#282938;
+}
+#emailValue,
+#number{
+	opacity: 0.8;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+	color:#282938;
+	
+}
+ /* { */
+	/* padding: 30px; */
+/* } */
+
+/*
+margin: 25px 50px 75px 100px;
+top margin is 25px
+right margin is 50px
+bottom margin is 75px
+left margin is 100px
+*/
+
+
+
+
+
+
+
+
+
+#rectangle {
+	width: 1600px;
+    height: 397px;
+	top: 0;
+	background: #1C1E53;
+	position: absolute;
+}
+
+#footer {
+	width: 1600px;
+    height: 489px;
+	position: relative;
+	background: #red;
+}
+
+#FooterLinks {
+	width: 1600px;
+    height: 92px;
+	bottom: 0;
+	justify-content: space-between;
+    display: flex;
+	position: absolute;
+	background: #FFFFFF;
+	align-items: center;
+	font-family: Poppins;
+}
+
+#FooterLinks_left {
+	padding-left: 160px;
+	display: flex;
+}
+
+#FooterLinks_right {
+	padding-right: 100px;
+	gap: 20px;
+	display: flex;
+	
+}
+
+
+
+
+
+
+/*
+Загальний порядок:
+Інформація про шрифт і текст
+Макет (layout)
+Розміри, відступи та фон
+Градієнти та фони
+Властивості коробки
+Анімації та переходи
+Трансформації
+Інші специфічні властивості
+*/
