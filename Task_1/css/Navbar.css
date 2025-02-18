@@ -1,0 +1,43 @@
+/*Navbar*/
+#navbar {
+    width: 100%;
+	
+	background: #1C1E53;
+}
+
+#navbarContent{
+	display: flex;
+	justify-content: space-between;
+}
+
+#name-company {
+	display: flex;
+    align-items: center;
+}
+
+#rightNavbar {
+	gap: 32px;
+	display: flex;
+	align-items: center;
+}
+
+#home-page {
+	color: white;
+}
+
+#about-us,
+#features,
+#faq,
+#blog{
+	color: #BBBBCB;
+}
+
+#contact-us {
+    border: 2px solid black;
+	padding:  0px 50px 0px 50px;
+    border-radius: 41px;
+	margin: 10px 0px 10px 0px;
+	color: white;
+}
+
+/*Navbar*/

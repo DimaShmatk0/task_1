@@ -1,0 +1,208 @@
+/*AboutUs*/
+#AboutUsHero{
+	width: 100%;
+	height: 336px;
+	margin-top:50px;
+}
+
+#AboutUsHeroContent{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	align-items: center;
+}
+
+#imgAboutUsHero{
+	width: 547px;
+	height: 336px;
+	justify-self: end;
+}
+
+#AboutUsText1{
+	width: 419px;
+	height: 32px;
+	color:#282938;
+}
+
+#AboutUsText2{
+	width: 595px;
+	height: 148px;
+	color:#282938;
+	margin-top:20px;
+}
+
+#AboutUsText3{
+	width: 484px;
+	height: 84px;
+	opacity: 0.7;
+	color:#282938;
+	margin-top:20px;
+}
+/*AboutUs*/
+
+/*WhoWeAre*/
+
+#WhoWeAre{
+	align-self: center;
+	margin-top:80px;
+	background-color:#F4F5F5;
+}
+
+#WhoWeAreTexts{
+	margin: 50px;
+}	
+
+#WhoWeAreContent{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	align-items: center;
+}
+
+#WhoWeAresText1,
+#WhoWeAresText2 {
+	opacity:0.7;
+	width:515px;
+}
+
+/*WhoWeAre*/
+/*Process*/
+#ProcessContent{
+	margin-bottom:100px;
+}
+
+#ProcessHeasing0 {
+	margin:60px 0px 40px 0px;
+    display: flex; 
+    justify-content: center; 
+    height: 100px; 
+}
+
+#ProcessCards{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap:62px;
+}
+
+#ProcessCard1,
+#ProcessCard2
+#ProcessCard3,
+#ProcessCard4{
+	width: 272px;
+}
+/*Process*/
+
+/*Mission*/
+
+#MissionVision {
+    background-color: rgba(238, 244, 250, 1);
+	padding:100px;
+}
+
+#MissionVisionContent {
+    flex-direction: column;
+    width: 100%;
+}
+
+#Mission, 
+#Vision{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 100px;
+}
+
+#Mission{
+	margin-bottom:70px;
+}
+
+#MissionText1,
+#MissionText2,
+#MissionText4,
+#MissionText5{
+	margin-bottom:20px;
+}
+
+#MissionText3,
+#MissionText6{
+	opacity:0.7;
+}
+
+/*Mission*/
+
+/*Benefits*/
+#Benefits{
+	margin: 0px 0px 50px 0px;
+}
+#BenefitsHeading{
+	display:flex;
+	justify-content: center; 
+	
+	margin: 140px 0px 60px 0px;
+	
+}
+
+#BenefitsContent{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap:25px;
+	margin-bottom:50px;
+}
+
+#BenefitsCard1,
+#BenefitsCard2,
+#BenefitsCard3{
+	width: 350px;
+	background-color:rgba(244, 246, 252, 1);
+	padding:30px;
+
+}
+#BenefitsHeading1{
+	padding: 15px 0px 15px 0px;
+}
+
+#BenefitsText{
+	width:324px;
+	opacity:0.7;
+}
+
+
+/*
+width: 405;
+height: 316;
+top: 3250px;
+left: 1035px;*/
+
+
+
+
+
+/*Benefits*/
+
+/*Meet our team*/
+#Team{
+	width:100%;
+	min-height:612px;
+	background-color:#F4F6FC;
+}
+
+#TeamHeasing{
+	margin-top:150px;
+	margin-bottom:50px;
+	text-align: center;
+}
+
+#TeamCards{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap:24px;
+}
+
+#TeamCard1,
+#TeamCard2,
+#TeamCard3,
+#TeamCard4{
+	background-color: white;
+	text-align: center;
+	padding:30px;
+}
+/*Meet our team*/
+
