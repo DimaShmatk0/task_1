@@ -1,7 +1,29 @@
+
+#rightNavbar a:visited {
+    color: #BBBBCB; 
+}
+
+#rightNavbar a {
+    text-decoration: none; 
+}
+
+#home-page {
+    text-decoration: none;
+    color: white;
+}
+
+#home-page:visited {
+    color: white !important;
+}
+
+#contact-us:visited {
+    color: white !important;
+}
+
 /*Navbar*/
+
 #navbar {
     width: 100%;
-	
 	background: #1C1E53;
 }
 
@@ -26,7 +48,6 @@
 }
 
 #about-us,
-#features,
 #faq,
 #blog{
 	color: #BBBBCB;
@@ -34,7 +55,7 @@
 
 #contact-us {
     border: 2px solid black;
-	padding:  0px 50px 0px 50px;
+	padding:  10px 50px 10px 50px;
     border-radius: 41px;
 	margin: 10px 0px 10px 0px;
 	color: white;

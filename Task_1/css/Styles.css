@@ -9,8 +9,11 @@ body, html {
   display: flex;
   flex-direction: column;
   background-color: #FFFFFF;
+  scroll-behavior: smooth;
+  text-decoration: none; 
+  
 }
- 
+
 .wrapper {
     max-width: 1280px;
     margin: 0 auto; 
@@ -26,7 +29,6 @@ body, html {
 	color:#282938;
 }
 
-
 .Heading2 {
 	font-family: Poppins;
 	font-size: 48px;
@@ -40,6 +42,13 @@ body, html {
 	font-weight: 600;
 	font-size: 38px;
 	line-height: 56px;
+}
+
+.Heading5 {
+	font-family: Poppins;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 48px;
 }
 
 .Heading6 {
@@ -59,9 +68,8 @@ body, html {
 .Body2 {
 	font-family: Poppins;
 	font-size: 16px;
-	line-height:28px;
+	line-height: 28px;
 	font-weight: 500;
-	align-items:center;
 }
 
 .Manrope{
@@ -84,12 +92,10 @@ body, html {
 	line-height: 28px;
 }
 
-
-
 .nameCompany {
-	font-size: 30px;
-	color: white;
 	font-family: Poppins;
 	font-weight: 600;
+	font-size: 30px;
+	color: white;
 }
 /*Style*/

@@ -110,5 +110,12 @@
 #FooterLinks_right {
 	gap: 20px;
 	display: flex;
+	text-decoration: none;
 }
+
+#footerLinksContent a {
+  text-decoration: none;
+  color: black !important;
+}
+
 /*Footer*/
