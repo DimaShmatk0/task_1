@@ -1,0 +1,64 @@
+#rightNavbar a:visited {
+  color: #bbbbcb;
+}
+
+#rightNavbar a {
+  text-decoration: none;
+}
+
+#home-page {
+  text-decoration: none;
+  color: white;
+}
+
+#home-page:visited {
+  color: white !important;
+}
+
+#contact-us:visited {
+  color: white !important;
+}
+
+/*Navbar*/
+
+#navbar {
+  width: 100%;
+  background: #1c1e53;
+}
+
+#navbarContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+#name-company {
+  display: flex;
+  align-items: center;
+}
+
+#rightNavbar {
+  gap: 32px;
+  display: flex;
+  align-items: center;
+}
+
+#home-page {
+  color: white;
+}
+
+#about-us,
+#faq,
+#pricing,
+#blog {
+  color: #bbbbcb;
+}
+
+#contact-us {
+  border: 2px solid black;
+  padding: 10px 50px 10px 50px;
+  border-radius: 41px;
+  margin: 10px 0px 10px 0px;
+  color: white;
+}
+
+/*Navbar*/
